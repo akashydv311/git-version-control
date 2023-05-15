@@ -1,0 +1,217 @@
+
+pwd
+
+ls
+
+ls -l
+
+ls -la
+
+cd ..
+
+cd/"Name of folder"
+
+== == == == == == == == == == == == == == ==
+
+git init
+
+git add .
+
+git commit -m "message"
+
+
+git status
+
+git log
+
+git log -n 2 ("Number of commits you want to see")
+
+git log --author="akashyada" ("name of the other all commits")
+
+git log --since = 2022-07-28 (date in yy-mm-dd formate)
+git log --untill=2022-07-12
+
+git log --since="1 week ago"
+
+git log --grap="ignore"
+
+git log --format=fuller
+
+
+git log --oneline
+git log --oneline -6
+
+
+
+git diff (before add .)
+
+git diff --staged(compare files content after staging)
+
+git rm "fileName"
+
+git checkout --"file name"
+
+git restore --staged < file > ..." to unstage
+
+
+git commit --amend -m "message"
+(amd is going to change has but last hash)
+
+git checkout "staging area string SH1 " --"fileName"
+(Genally we are doing this for returnning the last or whather commit you want to 
+go for "where our code working perfectly fine")
+
+AFTER THIS 
+
+GIT RESET 
+
+1 soft
+2 mixed
+3 hard
+
+
+git reset HEAD "FileName" 
+
+git reset HEAD~1 
+                    => points to the letast
+git reset HEAD~2
+
+git reset --hard "SHA1 string" 
+
+git clean -n 
+
+git clean -f (comlete delete files)
+
+# for .gitignore file
+
+# for comments
+*.js
+*.html
+node_modules/
+*.mp4
+*mp3
+!app.js
+DS_Store
+*.log
+Adding exception in .gitignore file
+
+
+when we commit in project after that we are going to files to ingnore in .gitignore 
+then git track into this for this we have to chached 
+git rm --cached hello.php 
+
+
+git dosn't keep track of empty folder 
+so we can creat hidden file in uplod folder
+
+
+git ls-tree
+git ls-tree HEAD
+
+git ls-tree master
+git ls-tree HEAD~5
+
+branching
+
+git branch
+
+git checkout "branch name"
+
+git checkout -b "new branch name"
+
+git log --graph --oneline --decorate -all
+
+git checkout -- "file name"
+
+
+git diff "branch name".."branch name"
+
+git branch -m "branchname" "renamed branch name"
+
+git branch -d "branch name"
+
+git branch -D "forcfully delete branch"
+
+git merge "branch name"
+
+git stash save "massage"
+
+git stash show
+git stash show stash@{0}
+git stash show -p stash@{0}
+
+git stash pop stash@{0} => ACT LIKE A CUT THE DATA
+git stash apply
+
+git stash drop stash@{0}
+
+git stash clear
+
+
+git remote add "Any name"(origin) master
+git push origin master
+
+
+git clone link "name folder" (new dev)
+
+have some work (old user)
+
+git push (old dev)
+
+git fetch (new dev)
+
+git merge origin/master (new dev)
+
+now up to date with remote origin 
+
+hav some work 
+
+git push (new dev )
+
+
+
+
+
+fork project with any project 
+
+have some work and push it with new request with merging that project 
+
+make contributor for parrellar working 
+
+
+git tag ticket321 "any sha"
+
+git tag -a ticket321 -m "resolved ticket321 in this commit" "any sha"
+
+git tag --list
+
+git tag -l -n 
+git tag -ln 
+
+
+git tag -d "ticket321"
+for deleting 
+
+IMP Tags are not automectilly been pushed in any online ervice we 
+tags push automectilly is not allowed
+tags clone automectilly comes 
+
+push tags online 
+
+git push --tags 
+git push origin ticket321
+
+
+Always use SHA value instant of doing operaction on commits or tags 
+
+
+              THANK YOU WITH GIT
+
+                BYYYYY
+
+
+
+
+
+
+

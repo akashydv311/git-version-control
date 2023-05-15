@@ -1,0 +1,18 @@
+
+// we are goinh into trouble at this time
+
+Heyy There i am akash and working on x function for the extern
+
+<<<<<<< HEAD
+i m in master
+i am working on x fun
+=======
+i am wotking on y funtion
+
+
+
+hello dumb guys i am learning git
+
+This is a neigmaire for developers t work wroung way in git.
+
+Yahhh.. You are right bro!!!

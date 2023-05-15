@@ -1,0 +1,9 @@
+*.js
+!app.js
+*.mp4
+*.mp3
+
+node_module/
+DS_Store
+
+.vscode
