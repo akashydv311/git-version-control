@@ -9,5 +9,3 @@
 ### \* Intrest buils towords the linux
 
 Git README.md file is updaing...
-
-This is done in the feacture branch
