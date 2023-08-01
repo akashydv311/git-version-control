@@ -209,7 +209,12 @@ Always use SHA value instant of doing operaction on commits or tags
 
                 BYYYYY
 
+****************************************
 
+new commands that i learn 
+
+
+git log --pretty=oneline
 
 
 
